@@ -1,0 +1,15 @@
+#Simple function with return values
+
+nam = input("Hi, What's your name? ")
+def greet():
+	return "Hello, "
+		
+print (greet(), nam, "Nice to finally meet you. Would you like to be my friend?")
+
+answer = input()
+if answer == "Yes":
+	print ("Great!")
+elif answer == "No":
+	print ("That's too bad")
+else:
+	print (" No need to be rude. A simple yes or no would suffice")
