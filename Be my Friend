@@ -13,3 +13,5 @@ elif answer == "No":
 	print ("That's too bad")
 else:
 	print (" No need to be rude. A simple yes or no would suffice")
+	print ("Good day, sir!")
+	print ("I said, GOOD DAY!")
