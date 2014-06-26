@@ -1,0 +1,20 @@
+# Simple program to calculate overtime pay
+
+hrs = input('Enter Hours: ')
+h = float(hrs)
+sh = float(40)
+
+try:
+	ho = h - 40
+except:
+	ho = float(hrs) - 40
+	
+rate = input('Enter Pay Rate: ')
+r = float(rate)
+ovp = float(rate) * 1.5
+
+if h > 40:
+	print (sh * r + ho * ovp)
+else:
+	print (h * r)
+print ('Complete')
